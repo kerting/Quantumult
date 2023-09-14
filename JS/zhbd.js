@@ -15,9 +15,9 @@ TG频道群：https://t.me/iosapp520
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2 url reject-dict
 ^http[s]?:\/\/datahub\.zhihu\.com\/collector\/lastn-realtime url reject-dict
 
-http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|remix-web\/paid_columns.*manuscript|market\/paid_column|appview\/p|api\/v3\/books|books|market\/paid_magazine).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/zh.js
+http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|remix-web\/paid_columns.*manuscript|market\/paid_column|appview\/p|api\/v3\/books|books|market\/paid_magazine).*$ url script-request-header https://raw.githubusercontent.com/kerting/Quantumult/master/JS/zh.js
 
-^http[s]?:\/\/api\.zhihu\.com\/(people\/self|unlimited\/go\/my_card|sku\/reversion_sku_ext).*$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/zhbd.js
+^http[s]?:\/\/api\.zhihu\.com\/(people\/self|unlimited\/go\/my_card|sku\/reversion_sku_ext).*$ url script-response-body https://raw.githubusercontent.com/kerting/Quantumult/master/JS/zhbd.js
 
 
 [mitm]
