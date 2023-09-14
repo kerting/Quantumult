@@ -1,6 +1,7 @@
 /*
 彩云天气
 真实VIP客户提取Token
+转自wf021325
 
 https://biz.cyapi.cn/v2/user?app_name=weather
 https://biz.cyapi.cn/v1/visitors
